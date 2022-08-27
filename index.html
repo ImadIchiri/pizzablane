@@ -1,0 +1,429 @@
+<!-- 
+
+    Hello There I'm Ichiri Imad
+    If Ther is anything wrong in this template please feel free to contact me
+
+    ⭐ fb: Imad Ichiri
+    ⭐ insta: imad_ichiri
+    ⭐ whatsApp: +212-677-628-617
+    ⭐ gmail: ichiri02imad@gmail.com 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FontAwsome V-6.1.2 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts 'Roboto' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalaize File -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Pizza Blane</title>
+    <!-- JavaScript Files -->
+    <script type="module" src="javaScript/main.js" defer></script>
+    <script type="module" src="javaScript/header.js" defer></script>
+    <script type="module" src="javaScript/home.js" defer></script>
+    <script type="module" src="javaScript/gallery.js" defer></script>
+    <script type="module" src="javaScript/toggleNav.js" defer></script>
+  </head>
+  <body>
+    <!-- Start Header Section -->
+    <header class="main_header">
+      <div class="container">
+        <div class="header_contact">
+          <div class="contact_item">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <a href="tel:0520098856"><span class="phone">0520098856</span></a>
+          </div>
+          <div class="contact_item social">
+            <a
+              href="https://www.instagram.com/pizzablane.2mars/"
+              target="_blank"
+              title="PIZZABLANE Instagram"
+            >
+              <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a
+              href="https://web.facebook.com/pizzablane"
+              target="_blank"
+              title="PIZZABLANE Facebook"
+            >
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
+          </div>
+        </div>
+        <div class="logo">
+          <img src="images/website/logo.png" alt="PIZZA BLANE LOGO" />
+          <i class="fa-solid fa-bars toggle_menu" id="toggle_menu"></i>
+        </div>
+        <nav class="main_menu" id="main_menu">
+          <ul class="list">
+            <!-- 
+                We Can Delete The '<a></a>' Tags And Use The '<li></li>' Directly 
+                /!\ But We Still Need The Class Names /!\
+            -->
+            <li class="list_item">
+              <a class="home">accueil</a>
+            </li>
+            <li class="list_item">
+              <a class="about">à propos</a>
+            </li>
+            <li class="list_item"><a class="menu">menu</a></li>
+            <li class="list_item">
+              <a class="gallery">gallery</a>
+            </li>
+            <li class="list_item">
+              <a class="contact">contact</a>
+            </li>
+          </ul>
+          <a
+            href="https://glovoapp.com/ma/en/casablanca/pizza-blan/"
+            class="main_btn"
+            target="_blank"
+          >
+            Commandez maintenant
+          </a>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header Section -->
+    <!-- Start Home Section -->
+    <section class="home" id="home">
+      <div class="container">
+        <div class="home_text">
+          <h1 class="main_title">
+            #PIZZA
+            <span class="pizza_icon">🍕</span>
+            BLANE
+          </h1>
+          <div class="btns">
+            <a
+              href="https://glovoapp.com/ma/en/casablanca/pizza-blan/"
+              class="main_btn"
+              target="_blank"
+            >
+              Commandez maintenant
+            </a>
+            <a
+              href="https://pizzablane.virtuoso.ma/"
+              class="main_btn"
+              target="_blank"
+            >
+              Menu
+            </a>
+          </div>
+        </div>
+        <div class="home_image" id="home_image">
+          <!-- Will Be Added By JavaScript -->
+        </div>
+      </div>
+    </section>
+    <!-- End Home Section -->
+    <!-- Start About Section -->
+    <section class="about" id="about">
+      <div class="section_title">
+        <div class="three_lines">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h1 class="special_heading">À Propos</h1>
+        <div class="three_lines">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="container">
+        <div class="about_text">
+          <h2 class="about_heading">PIZZABLANE</h2>
+          <p class="about_paragpagh">
+            Bienvenue chez PIZZABLANE à 2mars Casablanca ! Laissez vous tenter
+            par nos délicieux burgers, goûtez à nos savoureux tacos et laissez
+            vous tenter par nos sandwichs !
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+    <!-- Start Menu Section -->
+    <section class="menu" id="menu">
+      <img src="images/design/tomato.png" alt="Tomato Design" class="tomato" />
+      <img src="images/design/frites.png" alt="Frites Design" class="frites" />
+      <div class="section_title">
+        <div class="three_lines">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h1 class="special_heading">Plats populaires</h1>
+        <div class="three_lines">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="container">
+        <!-- Start Card -->
+        <div class="card">
+          <div class="image">
+            <img src="images/menu/tacos_poulet.png" alt="Tacos Poulet" />
+          </div>
+          <h2 class="card_title">Tacos Poulet</h2>
+          <div class="prices">
+            <div class="item">
+              <span class="type">Seul</span>
+              <span class="price">27dhs</span>
+            </div>
+            <div class="item">
+              <span class="type">Frites</span>
+              <span class="price">33dhs</span>
+            </div>
+            <div class="item">
+              <span class="type">Menu</span>
+              <span class="price">37dhs</span>
+            </div>
+          </div>
+        </div>
+        <!-- Start Card -->
+        <div class="card">
+          <div class="image">
+            <img src="images/menu/tacos_poulet.png" alt="Tacos Poulet" />
+          </div>
+          <h2 class="card_title">#Pizza Blane</h2>
+          <div class="prices">
+            <div class="item">
+              <span class="type">Petite</span>
+              <span class="price">40dhs</span>
+            </div>
+            <div class="item">
+              <span class="type">Moyenne</span>
+              <span class="price">60dhs</span>
+            </div>
+            <div class="item">
+              <span class="type">Familiale</span>
+              <span class="price">120dhs</span>
+            </div>
+          </div>
+        </div>
+        <!-- Start Card -->
+        <div class="card">
+          <div class="image">
+            <img src="images/menu/tacos_poulet.png" alt="Tacos Poulet" />
+          </div>
+          <h2 class="card_title">Sauce Crème Fraiche (suprême)</h2>
+          <div class="prices">
+            <div class="item">
+              <span class="type">Petite</span>
+              <span class="price">30dhs</span>
+            </div>
+            <div class="item">
+              <span class="type">Moyenne</span>
+              <span class="price">45dhs</span>
+            </div>
+            <div class="item">
+              <span class="type">Familiale</span>
+              <span class="price">90dhs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        href="https://pizzablane.virtuoso.ma/"
+        target="_blank"
+        class="main_btn"
+      >
+        Voir le menu
+      </a>
+    </section>
+    <!-- End Menu Section -->
+    <!-- Start Gallery Section -->
+    <section class="gallery" id="gallery">
+      <div class="section_title">
+        <div class="three_lines">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h1 class="special_heading">Gallery</h1>
+        <div class="three_lines">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="images" id="gallery_images">
+        <!-- Gallery Images -->
+      </div>
+    </section>
+    <!-- End Gallery Section -->
+    <!-- Start Contact Section -->
+    <section class="contact" id="contact">
+      <div class="section_title">
+        <div class="three_lines">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h1 class="special_heading">Contact</h1>
+        <div class="three_lines">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="container">
+        <!-- Start Card -->
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="text">
+            <h2 class="contact_title">Adresse</h2>
+            <p class="contact_text">
+              <a
+                href="https://www.google.com/maps/place/Pizza+blane/@33.561965,-7.610107,18z/data=!4m5!3m4!1s0x0:0xd57614dafde9f45b!8m2!3d33.5619649!4d-7.6101075?hl=en"
+                target="_blank"
+                >563, Bd Modiboukeita (à coté mosquée sounna), Casablanca,
+                Morocco</a
+              >
+            </p>
+          </div>
+        </div>
+        <!-- Start Card -->
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="text">
+            <h2 class="contact_title">Appelez-nous</h2>
+            <p class="contact_text"><a href="tel:0520098856">0520098856</a></p>
+          </div>
+        </div>
+        <!-- Start Card -->
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-clock"></i>
+          </div>
+          <div class="text">
+            <h2 class="contact_title">Horaires</h2>
+            <p class="contact_text"><b>lundi-dimanche:</b> 12:30 - 23:30</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+    <!-- Start Google_Map_Location -->
+    <div class="location">
+      <div class="section_title">
+        <div class="three_lines">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h1 class="special_heading">Emplacement</h1>
+        <div class="three_lines">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d831.167350407973!2d-7.610654670639037!3d33.56196490000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda633cac19a6457%3A0xd57614dafde9f45b!2sPizza%20blane!5e0!3m2!1sen!2sma!4v1661640221794!5m2!1sen!2sma"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+    <!-- End Google_Map_Location -->
+    <!-- Start Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="main_footer_section">
+          <div class="footer_section_image">
+            <img src="images/website/logo.png" alt="PizzaBlane Logo" />
+          </div>
+          <div class="footer_section_text">
+            <h2 class="footer_section_title">Suivez-nous</h2>
+            <p class="footer_section_paragraph">
+              <a href="https://web.facebook.com/pizzablane" target="_blank">
+                <i class="fa-brands fa-square-facebook"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/pizzablane.2mars/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-square-instagram"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="footer_section">
+          <div class="footer_section_icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="footer_section_text">
+            <h2 class="footer_section_title">Adresse</h2>
+            <p class="footer_section_paragraph">
+              <a
+                href="https://www.google.com/maps/place/Pizza+blane/@33.561965,-7.610107,18z/data=!4m5!3m4!1s0x0:0xd57614dafde9f45b!8m2!3d33.5619649!4d-7.6101075?hl=en"
+                target="_blank"
+                >563, Bd Modiboukeita (à coté mosquée sounna), Casablanca,
+                Morocco</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="footer_section">
+          <div class="footer_section_icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="footer_section_text">
+            <h2 class="footer_section_title">Appelez-nous</h2>
+            <p class="footer_section_paragraph">
+              <a href="tel:0520098856">0520098856</a>
+            </p>
+          </div>
+        </div>
+        <div class="footer_section">
+          <div class="footer_section_icon">
+            <i class="fa-solid fa-clock"></i>
+          </div>
+          <div class="footer_section_text">
+            <h2 class="footer_section_title">Horaires</h2>
+            <p class="footer_section_paragraph">
+              <b>lundi-dimanche:</b> 12:30 - 23:30
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer_copyrights">
+        This template was created by <br />
+        <a href="https://github.com/ImadIchiri" target="_blank"
+          >&lt; Ichiri Imad /&gt;</a
+        >
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+    <!-- <div class="extra_height" style="width: 100%; height: 300vh"></div> -->
+  </body>
+</html>
