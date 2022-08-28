@@ -32,7 +32,6 @@ links.forEach((link) => {
         const scroolToThisPositions = Math.abs(
           addedPosition - section.offsetTop
         );
-        console.log(scroolToThisPositions);
         window.scrollTo({
           top: scroolToThisPositions,
         });
