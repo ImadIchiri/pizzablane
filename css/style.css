@@ -1,12 +1,11 @@
 /* 
+Hello There I'm Ichiri Imad
+If Ther is anything wrong in this template please feel free to contact me
 
-  Hello There I'm Ichiri Imad
-  If Ther is anything wrong in this template please feel free to contact me
-  
-  ⭐ fb: Imad Ichiri
-  ⭐ insta: imad_ichiri
-  ⭐ whatsApp: +212-677-628-617
-  ⭐ gmail: ichiri02imad@gmail.com
+⭐ fb: Imad Ichiri
+⭐ insta: imad_ichiri
+⭐ whatsApp: +212-677-628-617
+⭐ gmail: ichiri02imad@gmail.com
 
 */
 
@@ -68,7 +67,7 @@ a {
   transition: opacity 0.3s ease-in-out;
 }
 .main_btn:hover {
-  opacity: 1;
+  opacity: 1 !important;
 }
 .section_title {
   padding: 0px 15px;
@@ -300,6 +299,7 @@ a {
   align-items: center;
   flex-wrap: wrap;
   gap: 3rem;
+  overflow: hidden;
 }
 .home .home_text {
   margin: 0 auto;
