@@ -20,7 +20,7 @@
     <link
       rel="icon"
       type="image/x-icon"
-      href="images/website/favicon_small.jpg"
+      href="/images/website/favicon_small.jpg"
     />
     <!-- FontAwsome V-6.1.2 -->
     <link
@@ -43,15 +43,18 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Pizza Blane</title>
     <!-- JavaScript Files -->
-    <script type="module" src="javaScript/main.js" defer></script>
     <script type="module" src="javaScript/header.js" defer></script>
     <script type="module" src="javaScript/home.js" defer></script>
     <script type="module" src="javaScript/gallery.js" defer></script>
     <script type="module" src="javaScript/toggleNav.js" defer></script>
+    <!-- Animation By GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <!-- Main JavaScript File -->
+    <script type="module" src="javaScript/main.js" defer></script>
   </head>
   <body>
     <!-- Start Header Section -->
-    <header class="main_header">
+    <header class="main_header" id="main_header">
       <div class="container">
         <div class="header_contact">
           <div class="contact_item">
@@ -101,7 +104,7 @@
           </ul>
           <a
             href="https://glovoapp.com/ma/en/casablanca/pizza-blan/"
-            class="main_btn"
+            class="main_btn fade_in_btn"
             target="_blank"
           >
             Commandez maintenant
