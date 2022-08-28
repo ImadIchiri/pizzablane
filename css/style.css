@@ -288,7 +288,11 @@ a {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #e71e29;
-  background-image: linear-gradient(120deg, #fff 60%, #e71e29 60%);
+  background-image: linear-gradient(120deg, transparent 60%, #e71e29 60%),
+    url(../images/home/wood_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
