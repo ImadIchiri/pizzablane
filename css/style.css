@@ -448,6 +448,7 @@ section.menu {
 }
 .menu .card .image img {
   max-width: 100%;
+  max-height: 180px;
 }
 .menu .card .card_title {
   font-weight: 500;
