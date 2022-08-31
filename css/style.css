@@ -187,6 +187,9 @@ a {
   background-color: #000;
   border-radius: 5px;
 }
+.main_header .logo.scrolling {
+  border-radius: 0px 5px;
+}
 .main_header .logo img {
   width: 100%;
   max-width: 500px;
