@@ -21,7 +21,7 @@ mainMenuItems.forEach((elem) =>
 );
 
 /*  ================== Change Border Radius Of The Logo While Scrolling ==================  */
-window.addEventListener('scroll', () => { 
+addEvent([logo], 'scroll', () => {
   if(window.scrollY > 54) {
     logo.classList.add("scrolling");
   } else { 
