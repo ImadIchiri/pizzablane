@@ -1,6 +1,7 @@
 const toggleMenu = document.getElementById("toggle_menu");
 const mainMenu = document.getElementById("main_menu");
 const [...mainMenuItems] = document.querySelectorAll(".list .list_item a");
+const logo = document.querySelector(".logo");
 
 // Function To Add Event Listeners
 const addEvent = (element, event, func) => {
@@ -10,8 +11,6 @@ const addEvent = (element, event, func) => {
 };
 
 /*  ================== Toggle Active For mainMenuItems ==================  */
-addEvent(mainMenuItems, "click", () => {});
-
 mainMenuItems.forEach((elem) =>
   addEvent([elem], "click", () => {
     mainMenuItems.forEach((ele) => {
@@ -20,6 +19,15 @@ mainMenuItems.forEach((elem) =>
     elem.classList.add("active");
   })
 );
+
+/*  ================== Change Border Radius Of The Logo While Scrolling ==================  */
+window.addEventListener('scroll', () => { 
+  if(window.scrollY > 54) {
+    logo.classList.add("scrolling");
+  } else { 
+    logo.classList.remove("scrolling");
+  }
+});
 
 /*  ================== Show & Hide The mainMenu ==================  */
 
